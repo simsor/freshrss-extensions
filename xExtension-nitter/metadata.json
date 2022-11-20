@@ -1,0 +1,8 @@
+{
+	"name": "Nitter redirect",
+	"author": "Simsor",
+	"description": "Change Twitter URLs to your favourite Nitter instance",
+	"version": 1.0,
+	"entrypoint": "Nitter",
+	"type": "user"
+}
