@@ -1,0 +1,8 @@
+{
+	"name": "Import YouTube Takeout",
+	"author": "Simsor",
+	"description": "Import YouTube subscriptions from a YouTube Takeout CSV file",
+	"version": 1.0,
+	"entrypoint": "YTTakeout",
+	"type": "user"
+}
