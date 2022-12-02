@@ -76,7 +76,7 @@ class FreshExtension_yttakeout_Controller extends FreshRSS_ActionController {
 
         $entries = [];
         while (($line = fgetcsv($h)) !== false) {
-            if ($line === "") {
+            if (count($line) !== 3) {
                 continue;
             }
             $channel_name = $line[2];
