@@ -13,8 +13,6 @@ class FreshExtension_yttakeout_Controller extends FreshRSS_ActionController {
 		if (!FreshRSS_Auth::hasAccess()) {
 			Minz_Error::error(403);
 		}
-
-		require_once(LIB_PATH . '/lib_opml.php');
 	}
 
     /**
